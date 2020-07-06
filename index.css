@@ -1383,6 +1383,10 @@ footer{
             content: "\A" ;
             white-space: pre ;
         }
+       .btn input {
+	    color: #FFF;
+	    background-color: #da6b64;
+	  }
         .skype-main{
             display:none!important;
         }
@@ -2435,6 +2439,10 @@ footer{
    .m-right{
        margin:0 auto;
    }
+   .btn input {
+    color: #FFF;
+    background-color: #da6b64;
+	 }
   
  
  }
