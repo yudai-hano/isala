@@ -1,7 +1,10 @@
- *{
+*{
     box-sizing: border-box;
     margin:0;
     padding:0;   
+}
+.wrap {
+    overflow: hidden;
 }
 header{
     max-width: 2000px;
@@ -17,7 +20,7 @@ a{
 .header-main{
     display:flex;
     width:100vw;
-    padding:20px 0;
+    padding:1.4vw 0;
 }
 .header-left{
     display:flex;
@@ -766,9 +769,7 @@ a{
     text-align: center;
     margin:0;
 }
-.coffee-left{
-    width:100vw;
-}
+
 .plan1 p{
     color:#FFFFFF;
     margin:0;
@@ -783,8 +784,8 @@ a{
 }
 .plan3 p{
     color:#000000;
-    padding:10px;
-    font-size:16px;
+    padding:0.7vw;;
+    font-size:1.12vw;
     margin:0;
     border-bottom:1px dotted #e5e5e5;
 
@@ -792,7 +793,7 @@ a{
 .plan1{
     background-color:#016ea9;
     text-align: center;
-    padding:15px 50px;
+    padding:1.05vw 3.5vw;
 }
 .plan2{
     background-color:#FFFFFF;
@@ -816,12 +817,13 @@ a{
     font-size:1.4vw;
 }
 .coffee-left{
+    width:100vw;
     border:2px solid #016ea9;
     border-radius: 5px;
 }
 .coffee-right{
     width:100vw;
-    height:30vh;
+    height:30%;
     border:2px solid #016ea9;
     border-radius: 5px;
     margin-left:2vw;
@@ -905,6 +907,9 @@ a{
     width:100vw;
     display:none;
     display:none!important;
+}
+.pizza1 p{
+    white-space: nowrap;
 }
 .flight{
     width:15vw;
@@ -999,7 +1004,6 @@ ul{
     padding:4.1vw 1.4vw;
     border-radius: 50%;
     width:17vw;
-    height:25vh;
     text-align: center;
     justify-content: space-between;
     margin:0 auto;
@@ -1117,11 +1121,24 @@ ul{
     padding-top:4.2vw;
     padding-bottom:3vw;
 }
+.saru{
+    display:flex;
+    margin:0 auto;
+    width:18vw;
+}
+.saru1{
+   font-size:2.5vw;
+}
+.saru2{
+    font-size:2vw;
+    font-weight:600;
+    white-space: nowrap;
+}
 .f-top{
     text-align: center;
     color:#333333;
 }
-.f-top p{
+.mazu{
      font-size:1.12vw;
      margin:2.8vw 0;
      font-weight:600;
@@ -1295,91 +1312,71 @@ footer{
       display:none;
   }
   .question:hover{
-      border-bottom:2px solid black;
+      border-bottom:1px solid black;
       cursor: pointer;
 
   }
-  @media all and (max-width: 768px) {
-      body {
-            min-width: 900px;
-        }
-        .br::before {
-            content: "\A" ;
-            white-space: pre ;
-        }
+  @media all and (max-width: 992px) {
         .skype-main{
             display:none!important;
         }
         .skype2{
             display:inline!important;
         }
-
         .merit1:after{
-          right:-192px;
-          top:67px;
+          right:-23.4vw;
+          top:4.69vw;
       }
       .answer h2:before{
-          left:-185px;
+          left:-17.95vw;
       }
       .answer h2:after{
-          right:-180px;
+          right:-17.6vw;
       }
       
       .merit-list img{
-          width:100px;
+          width:7vw;
       }
       .header-main{
           display: flex;
           justify-content: space-between;
+          padding-top:0;
+          padding-bottom:0;
       }
       .header-right{
-          padding:20px 10px;
           display:none!important;
       }
       .header-right1{
-        width: auto;
-        height: 75px;
         display:inline!important;
         background-color:#da6b64;
        
       }
       .header-right2 img{
-          width:50%;
-          height:auto;
-          margin-left:10px;
+            width:3vw;
+            padding-left:0.7vw;
       }
       
       .header-right2{
         text-align: center;
-        padding: 17px 11px;
         display:flex;
         flex-direction: column;
-        
+        padding:1vw 1.5vw;
       }
       .pipi{
           color:#FFF;
-          font-size:12px;
+          font-size:0.84vw;
       }
       .header-left{
           display:flex;
-          flex-direction: column-reverse;
-          padding-left:15px;
-          padding-top:0;
-
+          padding:1vw 0;
       }
       .header-left img{
-          width:30%;
-          height:auto;
+         width:13vw;
+         padding-left:2vw;
       }
       .header-left p{
-          font-size:12px;
-          margin:0;
-          padding:0;
-          
-      }
-    
-      .container{
-          height:534px;
+         font-size:1.4vw;
+         padding-top:2.5vw;
       }
       .contain{
           background-position: center;
@@ -1388,228 +1385,209 @@ footer{
 }
 
     .center{
-          width:60%;
-          padding-top:150px;
-          padding-right:10px;
-
-
+          width:60vw;
+          padding-top:15vw;
+          padding-right:1vw;
       }
       .center h1{
-          font-size:24px;
+          font-size:2.4vw;
       }
       .center img{
-          width:40%;
-          height:auto;
-
+          width:40vw;
       }
       .center p{
-          font-size:16px;
-
+          font-size:1.6vw;
       }
       .quit{
-        padding: 10px 13px;
+        padding: 1vw 1.3vw;
         background-color: #da6b64;
         border-radius: 50px;
-        padding: 13px 30px;
-        width:80%;
-        margin:0 auto;
-        
+        padding: 1.3vw 3vw;
+        width:80vw;
+        margin:0 auto;  
       }
       .zero{
           margin:0;
-          width:50%;
+          width:50vw;
           margin:0 auto;
-          font-size:14px;
-          
-      }
-      .skill{
-          height:auto;
+          font-size:1.4vw;
       }
       .thirty{
-          font-size:16px;
-          padding-bottom:10px;
+          font-size:1.6vw;
+          padding-bottom:1vw;
       }
       .twenty{
-          margin-bottom:20px;
+          margin-bottom:2vw;
           
       }
+      .skill-main{
+          padding-bottom:2vw;
+      }
       .student{
-          padding-top:5px;
+          padding-top:0.5vw;
+      }
+      .student h3{
+          padding-bottom:1vw;
       }
       
       .free-logo{
           margin:0;
       }
-      .free{
-          height:auto;
-      }
       .free-logo h2{
-          font-size:24px;
+          font-size:2.4vw;
           font-weight:bold;
       }
       .free-list p{
-          font-size:16px;
-          padding-bottom:20px;
+          font-size:1.6vw;
+          padding-bottom:2vw;
       }
       .free-list{
           margin:0;
-          padding-top:20px;
+          padding-top:2vw;
       }
       .power{
           font-weight:bold;
       }
       .free-main{
-          padding-top:50px;
+          padding-top:5vw;
+          padding-bottom:13vw;
       }
       .free-logo h2:before{
-          left:-230px;
-          width: 40px;
-          height: 40px;
+          left:-13vw;
+          width: 4vw;
+          height: 4vw;
       }
       .free-logo h2:after{
-          right:-230px;
-          top:45px;
-          width: 40px;
-          height: 40px;
-      }
-      .nomado{
-          height:auto;
-          padding-bottom:100px;
+          right:-13vw;
+          top:1.5vw;
+          width: 4vw;
+          height: 4vw;
       }
       .one h1{
-          font-size:24px;
+          font-size:2.4vw;
+      }
+      .one h1:before{
+          left:-24.5vw;
       }
       .one h1:after{
-          right:-245px;
+          right:-24.5vw;
       }
       .two h2{
-          font-size:16px;
+          font-size:1.6vw;
       }
       .three h3{
-          font-size:16px;
+          font-size:1.6vw;
       }
       .three{
-          width:95%;
+          width:95vw;
          }
          .three h3{
-             margin-top:15px;
+             margin-top:1.5vw;
          }
     .image{
-        padding-left:45px;
-        padding-top:15px;
-        padding-right:45px;
-        padding-bottom:15px;
+        padding-left:7.5vw;
+        padding-top:1.5vw;
+        padding-right:4.5vw;
+        padding-bottom:1.5vw;
     }
     .an img{
-        width:40%;
-        height:auto;
+        width:4vw;
     }
     .in img{
-        width:30%;
-        height:auto;
+        width:3vw;
     }
     .in p{
-        padding-top:10px;
+        padding-top:1vw;
     }
     .un img{
-        width:30%;
-        height:auto;
+        width:3vw;
     }
     .en img{
-        width:40%;
-        height:auto;
+        width:4vw;
     }
     .en p{
-        padding-top:10px;
+        padding-top:1vw;
     }
 
     .on img{
-        width:80%;
-        height:auto;
+        width:8vw;
     }
     .on p{
-        padding-top:10px;
+        padding-top:1vw;
     }
-    
       .images{
-          width:20%;
-          height:auto;
+          width:13vw;
       }
       .images p{
-          font-size:12px;
+          font-size:1.2vw;
       }
       .kiso{
-          width:124%;
-          height:auto;
-          
+          width:16.5vw;
       }
       .in img{
           position: relative;
-          left:20px;
+          left:2vw;
       }
       .en{
           position: relative;
-          bottom:11px;
+          bottom:1.1vw;
       }
       .isala{
-          height:auto;
           background-position: center;
       }
       .isala2{
          flex-direction: column;
-         margin-left:0;
-         
+         margin-left:0;   
       }
       .isala-list{
-          width:36%;
+          width:36vw;
           margin:0 auto;
-          margin-bottom:15px;
+          margin-bottom:1.5vw;
       }
       .list{
-          padding:10px 54px;
+          padding:1vw 5.4vw;
       }
       .isala1 h3{
-          font-size:24px;
+          font-size:2.4vw;
       }
       .isala p{
-          font-size:16px;
-      }
-      .blue{
-          height:auto;
+          font-size:1.6vw;
+          padding:1vw 0;
       }
       .blue2{
-          padding-top:25px;
-          padding-bottom:25px;
+          padding-top:2.5vw;
+          padding-bottom:2.5vw;
       }
       .blue2 p{
-          font-size:12px;
-      }
-      .study{
-          height:536px;
+          font-size:1.2vw;
       }
       .study2{
           margin:0;
           margin:0 auto;
       }
+      .study2 img {
+        width: 19vw;
+      }
+      .study3 p{
+          font-size:1.4vw;
+      }
       .seikai{
           display:none;
       }
       .merit1{
-          left:5px;
+          left:0.5vw;
       }
       .merit1:before{
-          left:-200px;
+          left:-24vw;
       }
       .merit-list img{
-          width:300px;
-          height:120px;
-          
+          width:31vw;
       }
       .merit-list{
-          width:92%;
+          width:92vw;
           margin:0;
-          margin-right:10px;
-          margin-bottom:15px;
+          margin-right:1vw;
+          margin-bottom:1.5vw;
           text-align: center;
           
       }
@@ -1621,99 +1599,127 @@ footer{
       .merit2{
           display:flex;
           flex-direction: column;
-          margin-top:15px;
-          margin-left:75px;
-          padding-top:40px;
-          padding-bottom:40px;
+          margin-top:1.5vw;
+          margin-left:7.5vw;
+          padding-top:4vw;
+          padding-bottom:4vw;
       }
       .merit3{
          
-          margin-top:30px;
+          margin-top:3vw;
           margin-right:0;
-          margin-left:30px;
+          margin-left:3vw;
           margin-bottom:0;
-          width:95%;
+          width:95vw;
       }
       .merit3-1{
-          margin:0 20px;
-          padding-top:20px;
-          padding-bottom:25px;
+          margin:0 2vw;
+          padding-top:2vw;
+          padding-bottom:2.5vw;
       }
       .merit4{
           bottom:0;
-          padding-bottom:30px;
+          padding-bottom:3vw;
       }
       .elses{
-        padding-left:0;
+       font-size:1.5vw;
         text-align: initial;
-        width:100%;
-        height:auto;
-        margin:0;
+        width:73vw;
+        margin-left:10vw;
     }
       .member-main{
           margin:0;
-          padding:70px 100px 100px 100px ;
+          padding:7vw 10vw 10vw 12vw ;
       }
       .top{
           padding:0;
           position: initial;
       }
+      .top p{
+          padding:2vw 0;
+      }
       .bottom{
           display:flex;
           flex-direction: column;
       }
-      .member{
-          height:auto;
-      }
       .member1{
-          width:100%;
+          width:75vw;
       }
       .member1 img{
-          width:120px;
+          width:12vw;
+      }
+      .member1 p{
+          font-size:1.4vw;
       }
       .box{
           margin-right:0;
+          padding:5vw;
       }
       .voice2{
           margin:0;
       }
       .letter{
-          padding-right:90px;
+          padding-right:3vw;
       }
       .letter p{
-          font-size:21px;
+          font-size:2.1vw;
+          padding-bottom:1vw;
       }
       .human{
-        margin-left: 20px;
+        margin-left: 2vw;
       }
-      .coffee{
-          height:auto;
+      .ques{
+        width: 8.6vw;
+        height: 8.6vw;
+        padding-top:3vw;
+      }
+      .human img {
+        width: 31vw;
+        height: auto;
+    }
+      .answer-center{
+          padding-bottom:5vw;
+      }
+      .kanou{
+          font-size:2.7vw;
+      }
+      .syoko{
+          font-size:1.6vw;
+      }
+      .voice1 p{
+          font-size:0.9vw;
       }
       .coffee-top{
-          padding-top:20px;
+          padding-top:7vw;
+      }
+      .coffee-top h2{
+          font-size:2.4vw;
+      }
+      .coffee-top p {
+          font-size:1.4vw;
+      }
+      .plan1 p{
+          font-size:1.6vw;
+      }
+      .plan2 p {
+        font-size: 1.4vw;
       }
       .coffee-bottom{
           margin:0;
-          padding-top:55px;
-          padding-left:90px;
-          padding-bottom:55px;
+          padding-top:2.5vw;
+          padding-left:21vw;
+          padding-bottom:5.5vw;
           display:flex;
           flex-direction: column;
       }
       .coffee-left{
-          width:90%;
-          height:auto;
-          margin-bottom:20px;
+          width:60vw;
+          margin-bottom:2vw;
 
       }
       .coffee-right{
-          width:90%;
-          height:auto;
+          width:60vw;
           margin-left:0;
-
-      }
-      .skype{
-          height:auto;
       }
       .skype2{
           display:block;
@@ -1721,31 +1727,29 @@ footer{
       .toku{
           display:block;
       }
-      .risk{
-          height:auto;
-      }
       .risk2 h2{
-          padding:20px 0;
+          padding:2vw 0;
+          font-size:1.6vw;
       }
       .sanka h2 {
-        margin: 0px 60px;
+        margin: 0px 6vw;
     }
       .pizza2 ul{
           list-style: none;
       }
 
       .js-top {
-        padding-top: 45px;
+        padding-top: 4.5vw;
     }
     .pizza1{
         display:flex;
-        width:23%;
+        width:23vw;
         height:auto;
         margin:0 auto;
     }
     .pizza1 p{
         margin:0;
-        font-size:30px;
+        font-size:3vw;
         font-weight:bold;
     }
    
@@ -1756,40 +1760,37 @@ footer{
     .trash1{
         display:flex;
     }
+    .trash2{
+        padding-top:1.5vw;
+    }
     .trash1 h3{
-        margin:0;
+       padding-top:1vw;
+       padding-left:2vw;
     }
     .pizza2{
-        padding-right:100px;
-        padding-left:70px;
+        padding-right:10vw;
+        padding-left:7vw;
     }
-
-    
     .gomi1 img{
-        width:12%;
-        height:35px;
+        width:6vw;
     }
     .gomi2 img{
-        width:14%;
-        height:35px;
+        width:6vw;
     }
     .gomi3 img{
-        width:17%;
-        height:35px;
+        width:6vw;
     }
     .gomi4 img{
-        width:13%;
-        height:35px;
+        width:6vw;
     }
 
     .gomi5 img{
-        width:10%;
-        height:35px;
+        width:6vw;
     }
     .peace{
         background-color:#fef5e0;
-        padding:20px;
-        margin-bottom:20px;
+        padding:2vw;
+        margin-bottom:2vw;
     }
     .hope{
         background-color: #fef5e0;
@@ -1798,45 +1799,51 @@ footer{
         background-color:#fef5e0;
     }
     .bold{
-        font-size:14px;
+        font-size:1.4vw;
         font-weight:600;
     }
     .thin{
-        font-size:12px;
+        font-size:1.2vw;
         font-weight:300;
     }
-    .bangkok{
-        height:auto;
-    }
     .bangkok-main{
-        padding-top:30px;
-        padding-bottom:50px;
+        padding-top:3vw;
+        padding-bottom:5vw;
     }
     .bangkok-main h2{
-        text-align: center;
+        font-size:2.4vw;
+    }
+    .reason{
+        font-size:1.2vw;
+    }
+    .bangkok-main li{
+        font-size:1.4vw;
+    }
+    .kankyo{
+        font-size:1.6vw;
     }
     .lite{
-        margin:0;
+       font-size:2.5vw;
     }
     .lite:hover{
         border-bottom:1px solid black;
 
     }
       .tokuten{
-          margin-left:50px;
-          width:90%;
+          margin-left:5vw;
+          width:90vw;
           display:none!important;
       }
       .tokuten1{
-          width:35%;
-          margin-right:20px;
+          width:35vw;
+          margin-right:2vw;
 
       }
       .sanka1 h2{
-          margin:0 227px;
+          margin:0 22.7vw;
       }
       .sanka1{
-        padding-top:20px;
+        padding-top:2vw;
     }
     .toku{
         display:inline!important;
@@ -1846,21 +1853,17 @@ footer{
     }
     .toku-right p{
         color:#FFF;
-        width:100%;
-        height:auto;
-    }
-    .sanka{
-        height:auto;
+        width:50vw;
     }
     .sanka2{
         border:2px solid #FFF;
-        padding:20px 40px 20px 75px;
+        padding:5vw 4vw 2vw 7.5vw;
         margin:0 auto;
-        width:80%;
+        width:80vw;
         height:auto;
     }
     .sanka1 h2{
-        top:54px;
+        top:1.5vw;
     }
     .sanka-bottom{
         padding-top:0;
@@ -1870,59 +1873,56 @@ footer{
         padding-top:0;
     }
    .sanka-main{
-       padding-bottom:50px;
+       padding-bottom:5vw;
    }
     .toku-left h2{
         margin:0;
     }
     .toku-right{
-        padding-top:15px;
-        padding-left:50px;
+        padding-top:1.5vw;
+        padding-left:5vw;
     }
     .toku-left{
-        margin-bottom:15px;
+        margin-bottom:1.5vw;
      
-    }
-    .leon{
-        height:auto;
-    }
-    .message{
-        height:auto;
     }
     .m-bottom{
         display:flex;
         flex-direction: column;
         margin:0;
-        
     }
     .m-left{
-        width:90%;
-        height:auto;
+        width:90vw;
         text-align: center;
         
     }
     .m-left img{
         display:block;
         margin:0 auto;
-        width:90%;
-        height:550px;
-        margin-left:21px;
-    }
-    .m-right{
-        font-size:20px;
+        width:60vw;
+        margin-left:2vw;
     }
       .leon2{
-          padding-bottom:100px;
+          padding-top:4vw;
+          padding-bottom:6vw;
       }
+      .leon-main h2 {
+        font-size: 2.4vw;
+    }
       .leon2 h2:before{
-          left:-260px;
+          top:-2vw;
+          left:-17vw;
+      }
+      .leon-main{
+          padding-top:7vw;
       }
       .leon2 h2:after{
-          top:50px;
-          right:-260px;
+          top:2vw;
+          right:-18vw;
       }
       .message-main{
-          padding-bottom:30px;
+          padding-bottom:3vw;
+          padding-top:5vw;
       }
       .m-bottom{
           margin-left:0;
@@ -1932,67 +1932,87 @@ footer{
           float:initial; 
 
       }
+      .m-right{
+          padding:4vw 0;
+      }
+      .m-right p{
+          font-size:1.5vw;
+      }
+      .m-right li{
+        font-size:1.5vw;
+    }
       .m-left{
-          width:95%;
+          width:75vw;
           height:auto;
       }
       .m-left img{
-          width:100%;
-          height:auto;
+          width:95vw;
       }
+      .m-top h2 {
+        font-size: 2.5vw;
+    }
+    .m-top p {
+        font-size: 1.7vw;
+        padding:3vw 0;
+    }
       #santa{
           list-style: none;
       }
       .faq-main{
-          padding:50px 40px;
+          padding:7vw 4vw;
 
+      }
+      .form-main{
+          padding-top:7vw;
+      }
+      input, textarea {
+          width:70vw;
+      }
+      .btn{
+          width:70vw;
       }
       .toku-list{
         display:flex;
     }
     .toku-left{
         background-color:#FFF;
-        width:14%;
-        height:100px;
-        padding-top:30px;
+        width:14vw;
+        height:10vw;
+        padding-top:3vw;
         border-radius: 50%;
         text-align: center;
     }
     .sanka1{
-        padding-top:20px;
+        padding-top:2vw;
     }
     .toku h2{
          color:#ebb94d;
     }
-    .toku-right p{
-        color:#FFF;
-        width:100%;
-        height:auto;
+    .slide{
+        padding: 1vw 2vw 0.5vw 2vw;
     }
-      
-
-
-      
+    .slides{
+        padding-top:0.5vw;
+    }
+    
 }
 
 
- @media all and (max-width:560px){
-     body{
-        min-width: 1024px;
-     }
+ @media all and (max-width:460px){
+
     .free-logo h2:after{
         right:0;
     }
     .one h1:after{
-        right:-290px;
+        right:-20.3vw;
     }
     .merit1:after{
-        right:-220px;
+        right:-27.4vw;
     }
     .header-left{
         flex-direction: column-reverse;
-        padding-top:10px;
-        padding-left:10px;
+        padding-top:1.7vw;
+        padding-left:1.7vw;
     }
     .header-left p{
         margin:0;
@@ -2000,15 +2020,14 @@ footer{
     }
     .header-left img{
         padding:0;
-        width:30%;
+        width:15vw;
     }
     .header-right{
         display:none;
     }
     
     .header-right1{
-        width:9%;
-        height:75px;
+        width:13vw;
         float:right;
         background-color:#da6b64;
         margin:0 0 0 auto;
@@ -2016,17 +2035,36 @@ footer{
        
     }
     .header-right2{
-        
         display:flex;
         flex-direction: column;
-        padding:12px;
+        padding:1vw;
         
     }
     .header-right1 img{
         color:black;
-        width:40%;
-        height:auto;
-        margin-left:15px;
+        width:4vw;
+        margin-left:2.9vw;
+    }
+    .center h1 {
+        font-size: 6.4vw;
+    }
+    .center img {
+        width: 75vw;
+    }
+    .about {
+        background-color: #ebb94d;
+        border-radius: 50%;
+        width: 15vw;
+        height: 12vw;
+        color: #FFFFFF;
+        font-size: 2vw;
+        font-weight: normal;
+        margin: 0 auto;
+        position: relative;
+        bottom: 5.5vw;
+    }
+    .about p {
+        top:4vw;
     }
     .pipi{
         color:#FFF;
@@ -2035,11 +2073,11 @@ footer{
         border-bottom:1px solid #FFF;
     }
     .contain{
-        background-position: -373px 3px;
-        background-size: 1500px;
+        background-position: -44vw 1vw;
+        background-size: 200vw;
     }
     .center{
-        width:90%;
+        width:90vw;
     }
 
     .quits{
@@ -2053,67 +2091,52 @@ footer{
         white-space: pre ;
     }
     .twenty{
-        margin-bottom:20px;
+        margin-bottom:3.4vw;
     }
     .thirty{
-        padding-top:10px;
-    }
-    .skill{
-        height:600px;
-    }
-    .free{
-        height:680px;
+        padding-top:1.7vw;
     }
     .free-list p{
-        width:50%;
-        height:auto;
+        width:30vw;
         margin:0 auto;
 
     }
     .free-main{
-        padding-top:25px;
+        padding-top:4.25vw;
     }
     .free-logo h2{
-        font-size:30px;
+        font-size:3.3vw;
     }
     .free-list{
         padding:0;
     }
     .free-list p{
-        width:40%;
-        height:auto;
-        font-size:20px;
+        width:80vw;
+        font-size:2.5vw;
     }
     .free-logo h2:before {
-        top:-22px;
-        left:-245px;
+        top:-1.74vw;
+        left:-5.65vw;
     }
     .free-logo h2:after{
-        top:60px;
-        right:-230px;
+        top:11.2vw;
+        right:-6.1vw;
     }
     .two h2 {
-        font-size: 22px;
-    }
-    .nomado{
-        height:700px;
+        font-size: 3.74vw;
     }
     .one h1:before {
-        left:-300px;
-    }
-    .isala-list{
-       
+        left:-25vw;
     }
     .kadai{
-        margin: 0px 30px;
-    }
-    .isala{
-        height:874px;
+        margin: 0px 5.1vw;
     }
     .blue2{
-        padding-top:25px;
+        padding-top:4.2vw;
     }
-
+    .isala-list {
+        width: 90vw;
+    }
     .merit2{
         display:flex;
         flex-direction: column;
@@ -2121,146 +2144,152 @@ footer{
         text-align: center;
     }
     .merit3{
-        width:81%;
+        width:81vw;
         margin:0 auto;
-        margin-top:55px;
+        margin-top:9.35vw;
     }
     .merit-list{
-        width:40%;
-        height:auto;
-        margin:0 auto;
+        width:95vw;
     }
     .merit-list img{
-        width: 100%;
-        height: 200px;
-    }
-    .merit-main p{ 
-        margin:0;
+        width: 90vw;
+        margin-left:5vw;
     }
    .support{
-       padding-bottom:20px;
+       padding-bottom:3.4vw;
    }
     .merit-list img{
-        margin-top:30px;
+        margin-top:5.1vw;
+    }
+    .elses{
+        width:80vw;
     }
     .bottom {
         display: flex;
         flex-direction: column;    
     }
     .member{
-        height:2000px;
         background-size: 2500px;
         background-position: -600px -7px;
     }
     .member1{
-        width:100%;
+        width:90vw;
     }
     .box{
-        padding:20px;
+        padding:3.4vw;
     }
     .human{
-        width:25%;
-        height:auto;
-        margin-left:20px;
+        width:25vw;
+        margin-left:3.4vw;
     }
     .human img{
-        width:100%;
-        height:auto;
+        width:24vw;
         
     }
     .letter{
-        width:70%;
-        font-size:20px;
+        width:70vw;
+        font-size:3.4vw;
         height:auto;
-        padding-right:10px;
-        padding-left:10px;
-    }
-   
-    .voice{
-        height:1123px;
+        padding-right:1.7vw;
+        padding-left:1.7vw;
     }
     .coffee-bottom{
         display:flex;
         flex-direction: column;
-    }
-    .coffee{
-        height:1200px;
-
-    }
-    
-    
-    .skype{
-        height:auto;
     }
     .skype-main{
         display:none;
     }
     .pizza1{
         display:flex;
-        width:23%;
-        height:auto;
+        width:30vw;
         margin:0 auto;
+        padding-bottom:3vw;
     }
     .pizza1 p{
-        margin:0;
-        font-size:30px;
+        font-size:5.1vw;
         font-weight:bold;
     }
-   
+    .saru5{
+        font-size:5.5vw;
+        margin-top:1vw;
+    }
+   .image{
+       display:flex;
+       flex-wrap: wrap;
+   }
+   .images {
+    width: 24vw;
+    }   
     .hope{
         display:flex;
         justify-content: space-between;
+    }
+    .kiso{
+        width:30vw;
     }
     .trash1{
         display:flex;
     }
     .trash1 h3{
         margin:0;
+        padding-top: 3vw;
+        padding-left: 6vw;
     }
     .pizza2{
-        padding-right:100px;
-        padding-left:70px;
+        padding-right: 4vw;
+    padding-left: 4vw;
     }
-
-    
     .gomi1 img{
-        width:12%;
-        height:35px;
+        width:12vw;
     }
     .gomi2 img{
-        width:14%;
-        height:35px;
+        width:14vw;
     }
     .gomi3 img{
-        width:17%;
-        height:35px;
+        width:14vw;
     }
     .gomi4 img{
-        width:13%;
-        height:35px;
+        width:11vw;
     }
 
     .gomi5 img{
-        width:10%;
-        height:35px;
+        width:10vw;
     }
+
     .peace{
         background-color:#fef5e0;
-        padding:20px;
-        margin-bottom:20px;
+        padding:3.4vw;
+        margin-bottom:3.4vw;
     }
     .hope{
         background-color: #fef5e0;
     }
     .seikai{
         background-color:#fef5e0;
+        padding-top:4vw;
     }
     .bold{
-        font-size:14px;
+        font-size:1vw;
         font-weight:600;
     }
+    .merit3-1 p {
+        font-weight: bold;
+        font-size:0.5vw;
+        margin: 0.3vw 0;
+    }
+    .merit3 span {
+        font-size: 4.5vw;
+    }
+    .merit3 h3 {
+        font-size: 3.4vw;
+        margin: 1.4vw 0;
+    }
+    .merit4{
+        width:95vw;
+    }
     .thin{
-        font-size:12px;
+        font-size:2vw;
         font-weight:300;
     }
     .bangkok h2{
@@ -2283,35 +2312,33 @@ footer{
    }
    .toku-left{
        background-color:#FFF;
-       width:14%;
-       height:100px;
-       padding-top:30px;
+       width:16vw;
+       height:16vw;
+       padding-top:5.1vw;
        border-radius: 50%;
        text-align: center;
    }
    .sanka1{
-       padding-top:20px;
+       padding-top:3.4vw;
    }
    .toku h2{
         color:#ebb94d;
    }
    .toku-right p{
        color:#FFF;
-       width:100%;
+       width:40vw;
        height:auto;
-   }
-   .sanka{
-       height:750px;
+       font-size:1.5vw;
    }
    .sanka2{
        border:2px solid #FFF;
-       padding:20px 40px 40px 75px;
+       padding:8.4vw 6.8vw 6.8vw 4.75vw;
        margin:0 auto;
-       width:80%;
+       width:80vw;
        height:auto;
    }
    .sanka1 h2{
-       top:54px;
+       top:2.18vw;
    }
    .sanka-bottom{
        padding-top:0;
@@ -2320,23 +2347,20 @@ footer{
    .sanka1{
        padding-top:0;
    }
+   .golira{
+       width:30vw;
+   }
   
    .toku-left h2{
-       margin:0;
+      font-size:3vw;
    }
    .toku-right{
-       padding-top:15px;
-       padding-left:50px;
+       padding-top:2.55vw;
+       padding-left:8.5vw;
    }
    .toku-left{
-       margin-bottom:15px;
+       margin-bottom:2.55vw;
     
-   }
-   .leon{
-       height:auto;
-   }
-   .message{
-       height:auto;
    }
    .m-bottom{
        display:flex;
@@ -2345,28 +2369,79 @@ footer{
        
    }
    .m-left{
-       width:90%;
-       height:auto;
+       width:60vw;
        text-align: center;
        
    }
    .m-left img{
        display:block;
        margin:0 auto;
-       width:90%;
-       height:550px;
-       margin-left:96px;
+       width:90vw;
+       margin-left:5vw;
    }
    .m-right{
        margin:0 auto;
    }
-  
+   ul{
+       list-style: none;
+   }
+   input, textarea {
+    width: 90vw;
+}
+.btn {
+    width: 90vw;
+}
+   .slide h3{
+       margin-top:0.5vw;
+   }
+   .saru{
+       font-size:1vw;
+   }
+   .card{
+       font-size:5vw;
+   }
+   .member-main {
+    margin: 0;
+    padding: 7vw 10vw 10vw 5vw;
+}
+.answer h2{
+    font-size:4vw;
+}
+.ques {
+    width: 15vw;
+    height: 15vw;
+    padding-top: 4.5vw;
+}
+.an,.on{
+    padding-top:7vw;
+    margin-left:9vw;
+}
+.an img{
+    width:10vw;
+}
+.in img{
+    width:10vw;
+}
+.un img{
+    width:10vw;
+}
+.en img{
+    width:10vw;
+}
+.on img{
+    width:15vw;
+}
+.three h3 {
+   padding:4vw 0;
+}
+.bangkok-main li {
+    font-size: 0.9vw;
+   line-height: initial;
+    padding: 0.5vw 0;
+    padding-left: 2vw;
+}
  
  }
    
-
-
-    
-
 
   
