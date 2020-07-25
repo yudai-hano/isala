@@ -2238,19 +2238,19 @@ footer{
     }
     .pizza2{
         padding-right: 4vw;
-    padding-left: 4vw;
+         padding-left: 4vw;
     }
     .gomi1 img{
-        width:12vw;
+        width:9vw;
     }
     .gomi2 img{
-        width:14vw;
+        width:9vw;
     }
     .gomi3 img{
-        width:14vw;
+        width:9vw;
     }
     .gomi4 img{
-        width:11vw;
+        width:9vw;
     }
 
     .gomi5 img{
@@ -2259,7 +2259,6 @@ footer{
 
     .peace{
         background-color:#fef5e0;
-        padding:3.4vw;
         margin-bottom:3.4vw;
     }
     .hope{
